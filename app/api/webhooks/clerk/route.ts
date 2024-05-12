@@ -8,6 +8,9 @@ import { Webhook } from "svix";
 import { createUser, deleteUser, updateUser } from "@/lib/actions/user.action";
 
 export async function POST(req: Request) {
+  console.log("====================================");
+  console.log("herere");
+  console.log("====================================");
   // You can find this in the Clerk Dashboard -> Webhooks -> choose the webhook
   const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET_KEY;
 
@@ -58,9 +61,6 @@ export async function POST(req: Request) {
   const eventType = evt.type;
 
   // CREATE
-  console.log('====================================');
-  console.log(eventType);
-  console.log('====================================');
   if (eventType === "user.created") {
     const { id, email_addresses, image_url, first_name, last_name, username } =
       evt.data;

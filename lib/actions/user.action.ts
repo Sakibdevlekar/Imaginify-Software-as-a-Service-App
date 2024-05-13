@@ -16,15 +16,10 @@ import { handleError } from "../utils";
  */
 export async function createUser(user: CreateUserParams) {
   try {
-    console.log(`created user function`)
-
     await connectToDatabase();
-    
-    console.log(`created user function got the db instance`)
 
     const newUser = await User.create(user);
-    console.log(`created user: ${newUser}`)
-      return JSON.parse(JSON.stringify(newUser));
+    return JSON.parse(JSON.stringify(newUser));
   } catch (error) {
     handleError(error);
   }
@@ -45,7 +40,6 @@ export async function getUserById(userId: string) {
     await connectToDatabase();
 
     const user = await User.findOne({ clerkId: userId });
-    console.log(`get user by Id: ${user}`)
 
     if (!user) throw new Error("User not found");
 

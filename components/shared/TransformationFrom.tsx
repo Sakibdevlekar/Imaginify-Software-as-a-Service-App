@@ -233,9 +233,9 @@ const TransformationFrom = ({
           <TransformedImage
           image={image}
           type={type}
-          titles={form.getValues().title}
+          title={form.getValues().title}
           isTransforming={isTransforming}
-          setISTransforming={setIsTransforming}
+          setIsTransforming={setIsTransforming}
           transformationConfig={transformationConfig}
 />
         </div>

@@ -70,7 +70,7 @@ export async function deleteImage(imageId: string) {
 const populateUser = (query: any) =>
   query.populate({
     path: "author",
-    select: "_id firstName lastName",
+    select: "_id firstName lastName clerkId",
   });
 
 /*Get Image*/

@@ -220,6 +220,7 @@ const TransformationFrom = ({
                 onValueChange={(value) =>
                   onSelectFieldHandler(value, field.onChange)
                 }
+                value={field.value}
               >
                 <SelectTrigger className="w-[180px]">
                   <SelectValue placeholder="Select size" />

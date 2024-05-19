@@ -10,15 +10,15 @@ Imaginify software as a service app an AI image SaaS platform that excels in ima
 
 ## Table of Contents 📋
 
-1. [Introduction](#introduction-🌟)
-2. [Features](#features-🌈)
+1. [Introduction](#introduction)
+2. [Features](#features)
 3. [Tech Stack](#tech-stack)
 4. [Project Setup](#project-setup)
-5. [Contributing](#contributing-🌱)
-6. [Troubleshooting ](#troubleshooting-🛠️)
-7. [Deployment](#deployment-🚀)
+5. [Contributing](#contributing)
+6. [Troubleshooting ](#troubleshooting)
+7. [Deployment](#deployment)
 
-## Features 🌈
+## Features 
 
 1. Authentication and Authorization: Secure user access with registration, login, and route protection.
 2. Community Image Showcase: Explore user transformations with easy navigation using pagination.
@@ -120,15 +120,15 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-## Contributing 🌱
+## Contributing 
 
 Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
 
-## Troubleshooting 🛠️
+## Troubleshooting 
 
 If you encounter any issues with the application, contact [sakibdevlekar96@gmail.com](mailto:sakibdevlekar96@gmail.com) for assistance.
 
-## Deployment 🚀
+## Deployment 
 
 You can access the deployed version of imaginify at the following link:
 [Imaginify Live](https://imaginify-live.vercel.app)

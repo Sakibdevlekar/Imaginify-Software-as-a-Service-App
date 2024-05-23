@@ -133,7 +133,7 @@ If you encounter any issues with the application, contact [sakibdevlekar96@gmail
 You can access the deployed version of imaginify at the following link:
 [Imaginify Live](https://imaginify-live.vercel.app)
 
-To access the live Chatzo application:
+To access the live Imaginify application:
 
 1. Visit [Imaginify Live](https://imaginify-live.vercel.app).
 2. Sign up or log in to your account.
